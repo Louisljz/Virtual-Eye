@@ -1,0 +1,42 @@
+# platform: win-64
+
+# Add this line of code to tell conda to also look on the-
+# conda-forge channel when you search for packages. 
+# $ conda config --append channels conda-forge
+
+# Before installation, run this line of code to prevent 
+# potential error or conflict for incompatible packages.
+# $ conda config --set channel_priority false
+
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+
+cmake
+dlib
+numpy
+opencv
+pyaudio
+speechrecognition
+pywinauto
+pyinstaller
+pip
+
+# Use pip to install the package "uiautomation"
+# because it's not available in anaconda environment.
+# pip install uiautomation
+
+# If there are any errors when installing through conda, 
+# or when running the program.
+# Try pip install the package with the error instead.
+# (You may encounter an error with dlib and speech_recognition)
+
+# Code for converting py to exe:
+# pyinstaller -F -w -i icon.ico main.py 
+
+# You can find the exe file in the dist folder.
+# Delete the rest of the unessecary files produced.
+# Make sure to have these in the same directory as exe file:
+# 1. Images Folder.
+# 2. trained_models folder from Facial_Detection
+# 3. Flac converter files from speech_recognition library,
+and store it in a folder called "flac"
