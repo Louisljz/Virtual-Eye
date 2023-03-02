@@ -1,6 +1,8 @@
 # Exam-Virtual-Invigilator
 This project aims to monitor a student's activity during examinations, through webcam, microphone and screen monitoring. It can detect any unfair actions done by students, such as cheating. 
 
+Please find the Executable File of this Software from this github link: https://github.com/Louisljz/Exam-Virtual-Invigilator-EXE
+
 The following are the algorithms used in the 3 different types of activity monitoring:
 1. Webcam:
   - Face Monitoring: Detects Whether a single face is always present within the camera frame. If no face, or more than one face is present, then it will mark it as a form of cheating action.
